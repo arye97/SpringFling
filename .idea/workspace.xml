@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b104845-0b5a-4d52-979a-89f1f0dd5aa4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/example/springfling/Payload/Request/UserRegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springfling/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springfling/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/example/springfling/Controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/example/springfling/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/example/springfling/Object/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/example/springfling/Model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/example/springfling/Repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/example/springfling/Repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/example/springfling/SpringflingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/example/springfling/SpringflingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +26,23 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/server">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,11 +65,26 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\games\Documents\springfling\server\src\main\java\com\example\springfling\Payload\Request" />
       <recent name="C:\Users\games\Documents\springfling\springfling\src\main\java\com\example\springfling\Object" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SpringflingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springfling.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springfling.SpringflingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -54,7 +97,10 @@
       <option name="presentableId" value="Default" />
       <updated>1605579804189</updated>
       <workItem from="1605579805566" duration="1649000" />
-      <workItem from="1605657820731" duration="213000" />
+      <workItem from="1605657820731" duration="1451000" />
+      <workItem from="1605659306973" duration="2358000" />
+      <workItem from="1605661696629" duration="7062000" />
+      <workItem from="1605670859243" duration="531000" />
     </task>
     <servers />
   </component>
@@ -66,9 +112,21 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1130" y="590" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1605580035917" />
-    <state x="977" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1605657868801">
+    <state x="1649" y="510" key="FileChooserDialogImpl" timestamp="1605662088959">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="977" y="525" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1605657868801" />
+    <state x="1649" y="510" key="FileChooserDialogImpl/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1605662088959" />
+    <state x="1422" y="343" key="SettingsEditor" timestamp="1605669610606">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1422" y="343" key="SettingsEditor/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1605669610606" />
+    <state x="977" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1605670873647">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="977" y="525" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1605670873647" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1605662407204">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1605662407204" />
   </component>
 </project>

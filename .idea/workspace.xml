@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b104845-0b5a-4d52-979a-89f1f0dd5aa4" name="Default Changelist" comment="" />
+    <list default="true" id="0b104845-0b5a-4d52-979a-89f1f0dd5aa4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springfling/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springfling/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +16,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kOm2Rbbtt5WHKQNMSpiDzLxve0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,6 +27,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -46,6 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605579804189</updated>
       <workItem from="1605579805566" duration="1649000" />
+      <workItem from="1605657820731" duration="213000" />
     </task>
     <servers />
   </component>
@@ -57,5 +66,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1130" y="590" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1605580035917" />
+    <state x="977" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1605657868801">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="977" y="525" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1605657868801" />
   </component>
 </project>

@@ -13,6 +13,9 @@ public class UserRegisterRequest {
     @JsonProperty("email")
     private String email;
 
+    @JsonProperty("password")
+    private String password;
+
     public UserRegisterRequest() {}
 
     public String getFirstName() {
@@ -37,6 +40,14 @@ public class UserRegisterRequest {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
 }

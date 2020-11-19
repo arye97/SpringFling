@@ -28,7 +28,6 @@ public class UserValidator {
         validateName(user.getFirstName(), "first");
         validateName(user.getLastName(), "last");
         validateEmail(user.getEmail());
-
         return true;
     }
 

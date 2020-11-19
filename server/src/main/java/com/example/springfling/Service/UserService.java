@@ -40,6 +40,9 @@ public class UserService {
      */
     public LoginResponse login(String email, String password) {
         User user = userRepository.findByEmail(email);
+        if (user.getToken() != null) {
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "User already logged in");
+        }
         if (user.getEmail() == null) {
             throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, "Could not find user with email " + email);
         }
@@ -62,6 +65,8 @@ public class UserService {
         if (user != null) {
             user.setToken(null);
             userRepository.save(user);
+        } else {
+            throw new ResponseStatusException(HttpStatus.FORBIDDEN, "User already logged out");
         }
     }
 }

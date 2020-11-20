@@ -11,6 +11,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
@@ -57,4 +58,21 @@ public class BlogPostController {
         }
         return allPosts;
     }
+
+    @DeleteMapping("/blogpost/{postId}")
+    public void deleteBlogPost(@PathVariable Long postId, HttpServletRequest request, HttpServletResponse response) {
+        String token = request.getHeader("Token");
+        User user = userRepository.findByToken(token);
+        BlogPost post = blogPostRepository.findByPostId(postId);
+        if (post == null) {
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Post does not exist");
+        }
+        if (user.getId() != post.getAuthorId()) {
+            throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, "User is not this posts author");
+        }
+        blogPostRepository.delete(post);
+        response.setStatus(HttpServletResponse.SC_OK);
+    }
+
+    
 }

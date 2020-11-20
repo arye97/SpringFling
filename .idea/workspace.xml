@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b104845-0b5a-4d52-979a-89f1f0dd5aa4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/example/springfling/Controller/BlogPostController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/example/springfling/Payload/Response/BlogPostResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/example/springfling/Repository/BlogPostRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/example/springfling/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/example/springfling/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/example/springfling/Model/BlogPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/example/springfling/Model/BlogPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/example/springfling/Payload/Request/BlogPostRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/example/springfling/Payload/Request/BlogPostRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/example/springfling/Controller/BlogPostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/example/springfling/Controller/BlogPostController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +116,7 @@
       <workItem from="1605670859243" duration="6503000" />
       <workItem from="1605756083168" duration="869000" />
       <workItem from="1605756980208" duration="124000" />
-      <workItem from="1605757123258" duration="10818000" />
+      <workItem from="1605757123258" duration="11439000" />
     </task>
     <servers />
   </component>

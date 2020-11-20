@@ -32,6 +32,11 @@ public class UserController {
         this.userService = userService;
     }
 
+    /**
+     * Registers a new user, checking if that users credentials already exist within the system
+     * @param userData
+     * @return
+     */
     @PostMapping("/register")
     public LoginResponse registerNewUser(@Validated @RequestBody UserRegisterRequest userData) {
 

@@ -15,7 +15,7 @@ import org.springframework.web.server.ResponseStatusException;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.List;
+
 
 
 @RestController
@@ -72,11 +72,11 @@ public class UserController {
      * @param userId the id of the specific user
      * @return the user's information as in UserProfileResponse
      */
-    @GetMapping("/profile/{userId}")
+    @GetMapping("/user/{userId}")
     public UserProfileResponse getUserProfile(@PathVariable Long userId) {
         User user = userRepository.findByUserId(userId);
         if (user == null) {
-            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "User does not exist");5
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "User does not exist");
         }
         return new UserProfileResponse(user);
     }

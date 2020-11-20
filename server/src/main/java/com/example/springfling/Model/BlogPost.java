@@ -46,9 +46,9 @@ public class BlogPost {
         this.textBody = textBody;
     }
 
-    public BlogPost(BlogPostRequest blogPostRequest) {
+    public BlogPost(BlogPostRequest blogPostRequest, Long authorId) {
         setTimeStampNow();
-        this.authorId = blogPostRequest.getAuthorId();
+        this.authorId = authorId;
         this.title = blogPostRequest.getTitle();
         this.textBody = blogPostRequest.getTextBody();
     }
